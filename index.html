@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Turnera Médica</title>
+</head>
+
+<body>
+    <!--- HEADER - -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo del sitio">
+                <h1>Mi Sitio Web Potente</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Citas</a></li>
+                <li><a href="#">Pacientes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <h2>Bienvenidos a Mi Sitio Web Potente</h2>
+            <p>Su salud es nuestra prioridad. Brindamos atención médica de calidad.</p>
+        </section>
+        <div class="container">
+            <section id="citas">
+                <!-- Formulario y lista de citas (conexión a la base de datos requerida) -->
+                <h2>Gestión de Citas</h2>
+                <form id="cita-form" action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="fecha">Fecha de la cita:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+
+                    <label for="hora">Hora de la cita:</label>
+                    <input type="time" id="hora" name="hora" required>
+
+                    <label for="comentario">Comentarios adicionales:</label>
+                    <textarea id="comentario" name="comentario" rows="4"></textarea>
+
+                    <button type="submit">Solicitar Cita</button>
+                </form>
+            </section>
+        </div>
+
+
+        <section id="pacientes">
+            <h2>Gestión de Pacientes</h2>
+            <!-- Lista de pacientes y herramientas de gestión (conexión a la base de datos requerida) -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mi Sitio Web Potente. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
